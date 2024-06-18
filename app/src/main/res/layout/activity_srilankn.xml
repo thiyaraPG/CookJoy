@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgclr"
+    tools:context=".Srilankn">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="408dp"
+        android:layout_height="507dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535">
+
+        <FrameLayout
+            android:layout_width="411dp"
+            android:layout_height="122dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="20dp"
+                android:text="@string/caramel_pancake2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/procebtn1"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:backgroundTint="@color/btngo"
+                android:rotation="-90"
+                app:icon="@android:drawable/arrow_down_float" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img4" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="411dp"
+            android:layout_height="122dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="20dp"
+                android:text="@string/mango_cheese_and_avocado_salad1"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img2" />
+
+            <Button
+                android:id="@+id/procebtn2"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:backgroundTint="@color/btngo"
+                android:rotation="-90"
+                app:icon="@android:drawable/arrow_down_float" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="411dp"
+            android:layout_height="122dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="30dp"
+                android:text="@string/creamy_samosa_potli"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img5" />
+
+            <Button
+                android:id="@+id/procebtn3"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:backgroundTint="@color/btngo"
+                android:rotation="-90"
+                app:icon="@android:drawable/arrow_down_float" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="411dp"
+            android:layout_height="122dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="20dp"
+                android:text="@string/dahi_kebab"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="161dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/im3" />
+
+            <Button
+                android:id="@+id/procebtn4"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:backgroundTint="@color/btngo"
+                android:rotation="-90"
+                app:icon="@android:drawable/arrow_down_float" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sri_lankn_recipes"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
